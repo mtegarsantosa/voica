@@ -1,0 +1,16 @@
+import table from '../library/db'
+import express from 'express'
+import jwt from '../library/jwt'
+import bcrypt from 'bcryptjs'
+const router = express.Router()
+const db = new table("{{name}}")
+/*
+  ---
+*/
+router.get('/', (req,res)=>{ //get all
+  db.query(db.select().build(),(err,data)=>{
+    res.send(data)
+  })
+})
+
+module.exports = router
