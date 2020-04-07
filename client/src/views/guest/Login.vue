@@ -8,10 +8,10 @@
               <h5 class="card-title text-center">Masuk Ke Halaman Admin</h5>
               <form class="form-signin" @submit.prevent="login()" method="post">
                 <div class="form-label-group mb-3">
-                  <input type="text" ref="username" class="form-control" placeholder="Masukan username" required autofocus autocomplete="off">
+                  <input type="text" value="arsan" ref="username" class="form-control" placeholder="Masukan username" required autofocus autocomplete="off">
                 </div>
                 <div class="form-label-group mb-3">
-                  <input type="password" ref="password" class="form-control" placeholder="Masukan password" required>
+                  <input type="password" value="arsan" ref="password" class="form-control" placeholder="Masukan password" required>
                 </div>
                 <button class="btn btn-lg btn-primary btn-block text-uppercase" id="login" type="submit">Masuk</button>
               </form>

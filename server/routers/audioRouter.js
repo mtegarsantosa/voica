@@ -26,6 +26,7 @@ router.post('/', (req,res)=>{
       if (err) res.json({status:false,err:err})
       else res.json({status:true})
     })
+    global.io.emit('REFRESH_QUEUE_GUEST')
   })
 })
 router.put('/:id',(req,res)=>{
@@ -43,6 +44,7 @@ router.put('/:id',(req,res)=>{
       if (succ) res.json({status:true})
       else res.json({status:false})
     })
+    global.io.emit('REFRESH_QUEUE_GUEST')
   })
 })
 router.delete('/:id', (req,res)=>{
@@ -51,6 +53,7 @@ router.delete('/:id', (req,res)=>{
       if (succ) res.json({status:true})
       else res.json({status:false})
     })
+    global.io.emit('REFRESH_QUEUE_GUEST')
   })
 })
 

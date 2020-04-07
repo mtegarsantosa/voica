@@ -45,6 +45,7 @@ router.post('/', (req,res)=>{
         })
       }
     })
+    global.io.emit('REFRESH_QUEUE_GUEST')
   })
 })
 
