@@ -20,8 +20,10 @@ untuk men-download, mengembangkan, atau berkontribusi. Semoga bermanfaat :)
 ### Menjalankan Aplikasi
 **Mode Development**
 ```
-$ cd client && npm run client // Menjalankan Vue JS
-$ cd server && npm run server // Menjalankan Express/Node Js Server
+$ cd client && npm i // Install node_modules di client
+$ npm run client // Menjalankan Vue JS
+$ cd server && npm i // Install node_modules di server
+$ npm run server // Menjalankan Express/Node Js Server
 ```
 App berjalan di http://localhost:8080
 
