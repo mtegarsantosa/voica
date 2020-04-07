@@ -9,7 +9,7 @@ untuk men-download, mengembangkan, atau berkontribusi. Semoga bermanfaat :)
 
 ![Beranda Admin](./.TAMPILAN/beranda-admin.JPG "Beranda Admin")
 
-![Jadwal](./.TAMPILAN/Jadwal.jpg "Jadwal")
+![Jadwal](./.TAMPILAN/jadwal.jpg "Jadwal")
 
 ![Label Audio](./.TAMPILAN/label-audio.JPG "Label Audio")
 
