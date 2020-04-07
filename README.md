@@ -13,7 +13,7 @@ untuk men-download, mengembangkan, atau berkontribusi. Semoga bermanfaat :)
 
 ![Label Audio](./TAMPILAN/label-audio.JPG "Label Audio")
 
-![Manajemen Audio](./TAMPILAN/manajemen-audio.JPG "Manajemen Audio")
+![Manajemen Audio](./.TAMPILAN/manajemen-audio.JPG "Manajemen Audio")
 
 <b>Kenal Lebih Dekat</b><br>
 WA: +6281379947983<br>
